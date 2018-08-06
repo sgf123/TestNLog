@@ -18,7 +18,7 @@ namespace TestNLog
             catch (Exception ex)
             {
                 LogHelper.Default.Error("测试Error写入", ex);
-                new LogHelper("LnProcessDBLog").Log("测试Error写入", "{name:i,value:1}", ex);
+                LogHelper.DBDefault.Log("测试Error写入", "{name:i,value:1}", ex);
             }
             Console.ReadKey();
         }

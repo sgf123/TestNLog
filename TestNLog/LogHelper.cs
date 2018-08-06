@@ -11,21 +11,18 @@ namespace TestNLog
     public class LogHelper
     {
         NLog.Logger logger;
+        private static string _loggerName = "LnProcessDBLog";
 
         private LogHelper(NLog.Logger logger)
         {
             this.logger = logger;
-        }
-
-        public LogHelper(string name)
-            : this(NLog.LogManager.GetLogger(name))
-        {
-        }
-
+        } 
         public static LogHelper Default { get; private set; }
+        public static LogHelper DBDefault { get; private set; }
         static LogHelper()
         {
             Default = new LogHelper(NLog.LogManager.GetCurrentClassLogger());
+            DBDefault= new LogHelper(NLog.LogManager.GetLogger(_loggerName));
         }
         public void Log(string message, string logContent,Exception err=null)
         {
