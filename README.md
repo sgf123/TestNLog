@@ -1,7 +1,7 @@
 
 ### NETFramework 4.6.2
 ## 说明
-## 本项目仅作为参考项目，帮助大家能够快速使用QuarzNet和Topshelf进行系统服务开发部署，可视化系统服务管理
+## 本项目仅作为参考项目，帮助大家能够快速使用NLog日志框架
 ## NuGet
 	• NLog（4.5.8）
 	• NLog.Config（4.5.8） 
