@@ -1,0 +1,11 @@
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\NLog.config
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\TestNLog.exe.config
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\TestNLog.exe
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\TestNLog.pdb
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\NLog.dll
+E:\git\NLog\TestNLog\TestNLog\bin\Debug\NLog.xml
+E:\git\NLog\TestNLog\TestNLog\obj\Debug\TestNLog.csprojAssemblyReference.cache
+E:\git\NLog\TestNLog\TestNLog\obj\Debug\TestNLog.csproj.CoreCompileInputs.cache
+E:\git\NLog\TestNLog\TestNLog\obj\Debug\TestNLog.csproj.CopyComplete
+E:\git\NLog\TestNLog\TestNLog\obj\Debug\TestNLog.exe
+E:\git\NLog\TestNLog\TestNLog\obj\Debug\TestNLog.pdb

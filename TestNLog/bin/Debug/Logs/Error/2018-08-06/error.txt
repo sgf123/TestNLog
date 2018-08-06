@@ -1,0 +1,185 @@
+
+date： 2018/08/06 11:05:18.269
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 79
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 8136
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:05:18.305
+level： Error
+logger： 
+machinename： ISS             
+message： 
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Log
+callsite-linenumber： 35
+counter： 2
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 8136
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Log  
+exception:              
+-----------------------------------------------------------
+
+date： 2018/08/06 11:08:25.941
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 79
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 11388
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:08:25.986
+level： Error
+logger： 
+machinename： ISS             
+message： 
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Log
+callsite-linenumber： 35
+counter： 2
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 11388
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Log  
+exception:              
+-----------------------------------------------------------
+
+date： 2018/08/06 11:11:05.129
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 79
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 11756
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:14:24.862
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 81
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 9736
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:15:58.623
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 81
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 8772
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:17:00.719
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 81
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 9968
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
+
+date： 2018/08/06 11:18:45.364
+level： Error
+logger： TestNLog.LogHelper
+machinename： ISS             
+message： 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16
+appdomain： 0001:TestNLog.exe
+assembly-version： 1.0.0.0
+basedir： E:\git\NLog\TestNLog\TestNLog\bin\Debug\             
+callsite： TestNLog.LogHelper.Error
+callsite-linenumber： 81
+counter： 1
+nlogdir： E:\git\NLog\TestNLog\TestNLog\bin\Debug             
+processid： 11632
+processname： TestNLog
+specialfolder： C:\Users\Administrator\Desktop             
+stacktrace: Program.Main => LogHelper.Error  
+exception: 尝试除以零。             
+-----------------------------------------------------------
