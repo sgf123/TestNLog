@@ -11,27 +11,37 @@ namespace TestNLog
     public class LogHelper
     {
         NLog.Logger logger;
-        private static string _loggerName = "LnProcessDBLog";
-
+        private static string _loggerDBName = "LnProcessDBLog";
+        private static string _loggerMailName = "SendMailLog";
         private LogHelper(NLog.Logger logger)
         {
             this.logger = logger;
-        } 
+        }
         public static LogHelper Default { get; private set; }
         public static LogHelper DBDefault { get; private set; }
+        public static LogHelper SendMailLog { get; private set; }
         static LogHelper()
         {
             Default = new LogHelper(NLog.LogManager.GetCurrentClassLogger());
-            DBDefault= new LogHelper(NLog.LogManager.GetLogger(_loggerName));
+            DBDefault = new LogHelper(NLog.LogManager.GetLogger(_loggerDBName));
+            SendMailLog = new LogHelper(NLog.LogManager.GetLogger(_loggerMailName));
         }
-        public void Log(string message, string logContent,Exception err=null)
+        public void Log(string message, string logContent, Exception err = null)
         {
             LogEventInfo theEvent = new LogEventInfo(LogLevel.Trace, message, logContent);
             theEvent.Properties["LogContent"] = logContent;
             theEvent.Properties["Message"] = message;
             theEvent.Properties["StackTrace"] = err?.StackTrace;
             logger.Log(theEvent);
-           
+
+        }
+        public void MailLog(string msg, Exception err)
+        {
+            string errstr = string.Empty;
+            errstr += msg + "\r\n";
+            errstr += "source:" + err.Source + "\r\n";
+            errstr += "stackTrace:" + err.StackTrace;
+            logger.Error(err, errstr);
         }
 
         public void Debug(string msg, params object[] args)
@@ -77,7 +87,7 @@ namespace TestNLog
             errstr += "stackTrace:" + err.StackTrace;
             logger.Error(err, errstr);
         }
-       
+
         public void Fatal(string msg, params object[] args)
         {
             logger.Fatal(msg, args);

@@ -177,3 +177,109 @@ stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\
    在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
  Program.Main => LogHelper.Error 
 
+2018-08-06 13:35:31.3260 | Info  | Nlog,Info 
+2018-08-06 13:35:31.3450 | Debug | Nlog,Debug 
+2018-08-06 13:35:31.5600 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:35:31.6060 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:40:13.5770 | Info  | Nlog,Info 
+2018-08-06 13:40:13.5920 | Debug | Nlog,Debug 
+2018-08-06 13:40:13.6980 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:46:17.9330 | Info  | Nlog,Info 
+2018-08-06 13:46:18.0810 | Debug | Nlog,Debug 
+2018-08-06 13:46:18.4000 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:46:18.5490 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+
+2018-08-06 13:47:25.3050 | Info  | Nlog,Info 
+2018-08-06 13:47:25.3220 | Debug | Nlog,Debug 
+2018-08-06 13:47:25.6800 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:47:25.7460 | Fatal | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+
+2018-08-06 13:50:28.2610 | Info  | Nlog,Info 
+2018-08-06 13:50:28.2770 | Debug | Nlog,Debug 
+2018-08-06 13:50:28.3770 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:50:28.4590 | Fatal | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+
+2018-08-06 13:51:52.0770 | Info  | Nlog,Info 
+2018-08-06 13:51:52.1610 | Debug | Nlog,Debug 
+2018-08-06 13:51:52.3680 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:51:52.4410 | Fatal | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+
+2018-08-06 13:56:30.7610 | Info  | Nlog,Info 
+2018-08-06 13:56:30.7770 | Debug | Nlog,Debug 
+2018-08-06 13:56:31.2430 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:56:31.2880 | Fatal | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+
+2018-08-06 13:57:50.5180 | Info  | Nlog,Info 
+2018-08-06 13:57:50.5180 | Debug | Nlog,Debug 
+2018-08-06 13:57:50.9110 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.Error 
+
+2018-08-06 13:57:50.9550 | Error | 测试Error写入
+source:TestNLog
+stackTrace:   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 System.DivideByZeroException: 尝试除以零。
+   在 TestNLog.Program.Main(String[] args) 位置 E:\git\NLog\TestNLog\TestNLog\Program.cs:行号 16 
+ Program.Main => LogHelper.MailLog 
+

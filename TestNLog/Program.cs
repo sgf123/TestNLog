@@ -19,6 +19,7 @@ namespace TestNLog
             {
                 LogHelper.Default.Error("测试Error写入", ex);
                 LogHelper.DBDefault.Log("测试Error写入", "{name:i,value:1}", ex);
+                LogHelper.SendMailLog.MailLog("测试Error写入",ex);
             }
             Console.ReadKey();
         }
